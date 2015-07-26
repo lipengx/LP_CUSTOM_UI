@@ -23,8 +23,38 @@
     self.yesterdayNumber.text = @"0.0";
     
     [self performSelector:@selector(test) withObject:self afterDelay:0.3];
+
+    dispatch_queue_t globle = dispatch_get_global_queue(0, 0);
+    
+
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//   
+//        
+//    });
+
+    dispatch_async(globle, ^{
+        NSLog(@"1111111111%@",[NSThread currentThread]);
+        
+        
+    });
+
+
+
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 - (void)addModelr
 {
     _model= [[NumberModel alloc]init];
@@ -37,7 +67,15 @@
 }
 - (void)test
 {
-    [self setNumberWithValue:1.2];
+    dispatch_queue_t globle2 = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0);
+
+    dispatch_async(globle2, ^{
+        
+        NSLog(@"22222222222222%@",[NSThread currentThread]);
+        
+        
+    });
+//    [self setNumberWithValue:1.2];
 }
 - (void)setNumberWithValue:(float)value
 
