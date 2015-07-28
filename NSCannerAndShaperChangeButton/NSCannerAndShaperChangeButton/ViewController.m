@@ -35,7 +35,7 @@
     _testLayer.frame = CGRectMake(100, 300, 100, 100);
     
     _testLayer.path = bezer.CGPath;
-    
+    _testLayer.fillColor = [UIColor clearColor].CGColor;
     _testLayer.strokeColor = [UIColor yellowColor].CGColor;
     _testLayer.lineWidth = 1.0f;
     [self.view.layer addSublayer:_testLayer];
