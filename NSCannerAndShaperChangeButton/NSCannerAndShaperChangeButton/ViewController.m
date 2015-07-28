@@ -21,9 +21,9 @@
     // Do any additional se
     
     
-    ChangeButtonView * change = [[ChangeButtonView alloc]init];
-    change.tintColor = [UIColor redColor];
-    
+    ChangeButtonView * change = [[ChangeButtonView alloc]initWithFrame:CGRectMake(100, 100, 60, 60)];
+//    change.tintColor = [UIColor redColor];
+//    change.backgroundColor = [UIColor redColor];
     [self.view addSubview:change];
     [change startAnimating];
     [self customButton];

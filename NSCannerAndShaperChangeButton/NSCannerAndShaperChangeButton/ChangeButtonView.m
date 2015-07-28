@@ -55,14 +55,33 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
 }
 
 - (void)initialize
+
 {
-    _progressLayer = [[CAShapeLayer alloc]init];
+    self.layer.backgroundColor = [UIColor greenColor].CGColor;
+    _progressLayer = [CAShapeLayer layer];
     _progressLayer.frame = CGRectMake(10, 10, 40, 40);
-    _progressLayer.position = CGPointMake(100, 100);
-    _progressLayer.backgroundColor = [UIColor blueColor].CGColor;
+//    _progressLayer.position = CGPointMake(100, 100);
+//    _progressLayer.backgroundColor = [UIColor blueColor].CGColor;
+    _progressLayer.fillColor = [UIColor clearColor].CGColor;
     _progressLayer.strokeColor = [UIColor redColor].CGColor;
-    _progressLayer.lineWidth = 1.0f;
+    _progressLayer.masksToBounds = YES;
+    _progressLayer.cornerRadius = 20.0;
+    _progressLayer.lineWidth = 2.0f;
     _timingFuncthion = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    UIBezierPath * bezier = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, 40, 40)];
+    
+    CGPoint center = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
+    CGFloat radius = MIN(CGRectGetWidth(self.bounds) / 2, CGRectGetHeight(self.bounds) / 2) - self.progressLayer.lineWidth / 2;
+    CGFloat startAngle = (CGFloat)(0);
+    
+    CGFloat endAngle = (CGFloat)(2*M_PI);
+    
+    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:center radius:radius startAngle:startAngle endAngle:endAngle clockwise:YES];
+    
+    _progressLayer.path = bezier.CGPath;
+    
+    
+    
     
     [self.layer addSublayer:_progressLayer];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(resetAnimations) name:UIApplicationDidBecomeActiveNotification object:nil];
@@ -100,6 +119,7 @@ static NSString *kMMRingRotationAnimationKey = @"mmmaterialdesignspinner.rotatio
 //    UIBezierPath * path2 = [UIBezierPath bezierPathWithRoundedRect:self.progressLayer.bounds cornerRadius:radius];
 
     self.progressLayer.path = path.CGPath;
+
     
     self.progressLayer.strokeStart = 0.f;
     self.progressLayer.strokeEnd = 1.f;
