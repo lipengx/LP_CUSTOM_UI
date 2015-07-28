@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F56F4AF61AD3DE0E0077F413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F56F4AF51AD3DE0E0077F413 /* main.m */; };
+		F56F4AF91AD3DE0E0077F413 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F56F4AF81AD3DE0E0077F413 /* AppDelegate.m */; };
+		F56F4AFC1AD3DE0E0077F413 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56F4AFB1AD3DE0E0077F413 /* ViewController.m */; };
+		F56F4AFF1AD3DE0E0077F413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F56F4AFD1AD3DE0E0077F413 /* Main.storyboard */; };
+		F56F4B011AD3DE0E0077F413 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56F4B001AD3DE0E0077F413 /* Images.xcassets */; };
+		F56F4B041AD3DE0E0077F413 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56F4B021AD3DE0E0077F413 /* LaunchScreen.xib */; };
+		F56F4B101AD3DE0E0077F413 /* LPWActivityIndicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F56F4B0F1AD3DE0E0077F413 /* LPWActivityIndicatorTests.m */; };
+		F56F4B1B1AD3DE340077F413 /* LPWActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F56F4B1A1AD3DE340077F413 /* LPWActivityIndicator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F56F4B0A1AD3DE0E0077F413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F56F4AE81AD3DE0E0077F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56F4AEF1AD3DE0E0077F413;
+			remoteInfo = LPWActivityIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F56F4AF01AD3DE0E0077F413 /* LPWActivityIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPWActivityIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56F4AF41AD3DE0E0077F413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56F4AF51AD3DE0E0077F413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F56F4AF71AD3DE0E0077F413 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F56F4AF81AD3DE0E0077F413 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F56F4AFA1AD3DE0E0077F413 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F56F4AFB1AD3DE0E0077F413 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F56F4AFE1AD3DE0E0077F413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F56F4B001AD3DE0E0077F413 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F56F4B031AD3DE0E0077F413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F56F4B091AD3DE0E0077F413 /* LPWActivityIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPWActivityIndicatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56F4B0E1AD3DE0E0077F413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56F4B0F1AD3DE0E0077F413 /* LPWActivityIndicatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPWActivityIndicatorTests.m; sourceTree = "<group>"; };
+		F56F4B191AD3DE340077F413 /* LPWActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPWActivityIndicator.h; sourceTree = "<group>"; };
+		F56F4B1A1AD3DE340077F413 /* LPWActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPWActivityIndicator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56F4AED1AD3DE0E0077F413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56F4B061AD3DE0E0077F413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F56F4AE71AD3DE0E0077F413 = {
+			isa = PBXGroup;
+			children = (
+				F56F4AF21AD3DE0E0077F413 /* LPWActivityIndicator */,
+				F56F4B0C1AD3DE0E0077F413 /* LPWActivityIndicatorTests */,
+				F56F4AF11AD3DE0E0077F413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F56F4AF11AD3DE0E0077F413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56F4AF01AD3DE0E0077F413 /* LPWActivityIndicator.app */,
+				F56F4B091AD3DE0E0077F413 /* LPWActivityIndicatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56F4AF21AD3DE0E0077F413 /* LPWActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				F56F4AF71AD3DE0E0077F413 /* AppDelegate.h */,
+				F56F4AF81AD3DE0E0077F413 /* AppDelegate.m */,
+				F56F4AFA1AD3DE0E0077F413 /* ViewController.h */,
+				F56F4AFB1AD3DE0E0077F413 /* ViewController.m */,
+				F56F4B191AD3DE340077F413 /* LPWActivityIndicator.h */,
+				F56F4B1A1AD3DE340077F413 /* LPWActivityIndicator.m */,
+				F56F4AFD1AD3DE0E0077F413 /* Main.storyboard */,
+				F56F4B001AD3DE0E0077F413 /* Images.xcassets */,
+				F56F4B021AD3DE0E0077F413 /* LaunchScreen.xib */,
+				F56F4AF31AD3DE0E0077F413 /* Supporting Files */,
+			);
+			path = LPWActivityIndicator;
+			sourceTree = "<group>";
+		};
+		F56F4AF31AD3DE0E0077F413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56F4AF41AD3DE0E0077F413 /* Info.plist */,
+				F56F4AF51AD3DE0E0077F413 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F56F4B0C1AD3DE0E0077F413 /* LPWActivityIndicatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F56F4B0F1AD3DE0E0077F413 /* LPWActivityIndicatorTests.m */,
+				F56F4B0D1AD3DE0E0077F413 /* Supporting Files */,
+			);
+			path = LPWActivityIndicatorTests;
+			sourceTree = "<group>";
+		};
+		F56F4B0D1AD3DE0E0077F413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F56F4B0E1AD3DE0E0077F413 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56F4AEF1AD3DE0E0077F413 /* LPWActivityIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56F4B131AD3DE0E0077F413 /* Build configuration list for PBXNativeTarget "LPWActivityIndicator" */;
+			buildPhases = (
+				F56F4AEC1AD3DE0E0077F413 /* Sources */,
+				F56F4AED1AD3DE0E0077F413 /* Frameworks */,
+				F56F4AEE1AD3DE0E0077F413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPWActivityIndicator;
+			productName = LPWActivityIndicator;
+			productReference = F56F4AF01AD3DE0E0077F413 /* LPWActivityIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F56F4B081AD3DE0E0077F413 /* LPWActivityIndicatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56F4B161AD3DE0E0077F413 /* Build configuration list for PBXNativeTarget "LPWActivityIndicatorTests" */;
+			buildPhases = (
+				F56F4B051AD3DE0E0077F413 /* Sources */,
+				F56F4B061AD3DE0E0077F413 /* Frameworks */,
+				F56F4B071AD3DE0E0077F413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56F4B0B1AD3DE0E0077F413 /* PBXTargetDependency */,
+			);
+			name = LPWActivityIndicatorTests;
+			productName = LPWActivityIndicatorTests;
+			productReference = F56F4B091AD3DE0E0077F413 /* LPWActivityIndicatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F56F4AE81AD3DE0E0077F413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = LPW;
+				TargetAttributes = {
+					F56F4AEF1AD3DE0E0077F413 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F56F4B081AD3DE0E0077F413 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F56F4AEF1AD3DE0E0077F413;
+					};
+				};
+			};
+			buildConfigurationList = F56F4AEB1AD3DE0E0077F413 /* Build configuration list for PBXProject "LPWActivityIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F56F4AE71AD3DE0E0077F413;
+			productRefGroup = F56F4AF11AD3DE0E0077F413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56F4AEF1AD3DE0E0077F413 /* LPWActivityIndicator */,
+				F56F4B081AD3DE0E0077F413 /* LPWActivityIndicatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56F4AEE1AD3DE0E0077F413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56F4AFF1AD3DE0E0077F413 /* Main.storyboard in Resources */,
+				F56F4B041AD3DE0E0077F413 /* LaunchScreen.xib in Resources */,
+				F56F4B011AD3DE0E0077F413 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56F4B071AD3DE0E0077F413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56F4AEC1AD3DE0E0077F413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56F4AFC1AD3DE0E0077F413 /* ViewController.m in Sources */,
+				F56F4AF91AD3DE0E0077F413 /* AppDelegate.m in Sources */,
+				F56F4B1B1AD3DE340077F413 /* LPWActivityIndicator.m in Sources */,
+				F56F4AF61AD3DE0E0077F413 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56F4B051AD3DE0E0077F413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56F4B101AD3DE0E0077F413 /* LPWActivityIndicatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F56F4B0B1AD3DE0E0077F413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56F4AEF1AD3DE0E0077F413 /* LPWActivityIndicator */;
+			targetProxy = F56F4B0A1AD3DE0E0077F413 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F56F4AFD1AD3DE0E0077F413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56F4AFE1AD3DE0E0077F413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F56F4B021AD3DE0E0077F413 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56F4B031AD3DE0E0077F413 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F56F4B111AD3DE0E0077F413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F56F4B121AD3DE0E0077F413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F56F4B141AD3DE0E0077F413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPWActivityIndicator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F56F4B151AD3DE0E0077F413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LPWActivityIndicator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F56F4B171AD3DE0E0077F413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LPWActivityIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPWActivityIndicator.app/LPWActivityIndicator";
+			};
+			name = Debug;
+		};
+		F56F4B181AD3DE0E0077F413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LPWActivityIndicatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LPWActivityIndicator.app/LPWActivityIndicator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56F4AEB1AD3DE0E0077F413 /* Build configuration list for PBXProject "LPWActivityIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56F4B111AD3DE0E0077F413 /* Debug */,
+				F56F4B121AD3DE0E0077F413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56F4B131AD3DE0E0077F413 /* Build configuration list for PBXNativeTarget "LPWActivityIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56F4B141AD3DE0E0077F413 /* Debug */,
+				F56F4B151AD3DE0E0077F413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F56F4B161AD3DE0E0077F413 /* Build configuration list for PBXNativeTarget "LPWActivityIndicatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56F4B171AD3DE0E0077F413 /* Debug */,
+				F56F4B181AD3DE0E0077F413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F56F4AE81AD3DE0E0077F413 /* Project object */;
+}
