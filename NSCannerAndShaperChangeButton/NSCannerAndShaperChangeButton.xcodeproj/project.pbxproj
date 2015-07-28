@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B85ECC201B6711CF00317072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B85ECC1F1B6711CF00317072 /* main.m */; };
+		B85ECC231B6711CF00317072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B85ECC221B6711CF00317072 /* AppDelegate.m */; };
+		B85ECC261B6711CF00317072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85ECC251B6711CF00317072 /* ViewController.m */; };
+		B85ECC291B6711CF00317072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85ECC271B6711CF00317072 /* Main.storyboard */; };
+		B85ECC2B1B6711CF00317072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85ECC2A1B6711CF00317072 /* Assets.xcassets */; };
+		B85ECC2E1B6711CF00317072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85ECC2C1B6711CF00317072 /* LaunchScreen.storyboard */; };
+		B85ECC391B6711CF00317072 /* NSCannerAndShaperChangeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B85ECC381B6711CF00317072 /* NSCannerAndShaperChangeButtonTests.m */; };
+		B85ECC441B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B85ECC431B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests.m */; };
+		B85ECC531B6712AF00317072 /* NScanner的基本用法.m in Sources */ = {isa = PBXBuildFile; fileRef = B85ECC521B6712AF00317072 /* NScanner的基本用法.m */; };
+		B85ECC571B67145700317072 /* ChangeButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B85ECC561B67145700317072 /* ChangeButtonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B85ECC351B6711CF00317072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B85ECC131B6711CF00317072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85ECC1A1B6711CF00317072;
+			remoteInfo = NSCannerAndShaperChangeButton;
+		};
+		B85ECC401B6711CF00317072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B85ECC131B6711CF00317072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85ECC1A1B6711CF00317072;
+			remoteInfo = NSCannerAndShaperChangeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B85ECC1B1B6711CF00317072 /* NSCannerAndShaperChangeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSCannerAndShaperChangeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85ECC1F1B6711CF00317072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B85ECC211B6711CF00317072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B85ECC221B6711CF00317072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B85ECC241B6711CF00317072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B85ECC251B6711CF00317072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B85ECC281B6711CF00317072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B85ECC2A1B6711CF00317072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B85ECC2D1B6711CF00317072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B85ECC2F1B6711CF00317072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85ECC341B6711CF00317072 /* NSCannerAndShaperChangeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSCannerAndShaperChangeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85ECC381B6711CF00317072 /* NSCannerAndShaperChangeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCannerAndShaperChangeButtonTests.m; sourceTree = "<group>"; };
+		B85ECC3A1B6711CF00317072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85ECC3F1B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSCannerAndShaperChangeButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85ECC431B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCannerAndShaperChangeButtonUITests.m; sourceTree = "<group>"; };
+		B85ECC451B6711CF00317072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85ECC511B6712AF00317072 /* NScanner的基本用法.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NScanner的基本用法.h"; sourceTree = "<group>"; };
+		B85ECC521B6712AF00317072 /* NScanner的基本用法.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NScanner的基本用法.m"; sourceTree = "<group>"; };
+		B85ECC541B67137F00317072 /* LPW_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPW_Protocol.h; sourceTree = "<group>"; };
+		B85ECC551B67145700317072 /* ChangeButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeButtonView.h; sourceTree = "<group>"; };
+		B85ECC561B67145700317072 /* ChangeButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeButtonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B85ECC181B6711CF00317072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85ECC311B6711CF00317072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85ECC3C1B6711CF00317072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B85ECC121B6711CF00317072 = {
+			isa = PBXGroup;
+			children = (
+				B85ECC1D1B6711CF00317072 /* NSCannerAndShaperChangeButton */,
+				B85ECC371B6711CF00317072 /* NSCannerAndShaperChangeButtonTests */,
+				B85ECC421B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests */,
+				B85ECC1C1B6711CF00317072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B85ECC1C1B6711CF00317072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B85ECC1B1B6711CF00317072 /* NSCannerAndShaperChangeButton.app */,
+				B85ECC341B6711CF00317072 /* NSCannerAndShaperChangeButtonTests.xctest */,
+				B85ECC3F1B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B85ECC1D1B6711CF00317072 /* NSCannerAndShaperChangeButton */ = {
+			isa = PBXGroup;
+			children = (
+				B85ECC211B6711CF00317072 /* AppDelegate.h */,
+				B85ECC221B6711CF00317072 /* AppDelegate.m */,
+				B85ECC241B6711CF00317072 /* ViewController.h */,
+				B85ECC251B6711CF00317072 /* ViewController.m */,
+				B85ECC551B67145700317072 /* ChangeButtonView.h */,
+				B85ECC561B67145700317072 /* ChangeButtonView.m */,
+				B85ECC511B6712AF00317072 /* NScanner的基本用法.h */,
+				B85ECC521B6712AF00317072 /* NScanner的基本用法.m */,
+				B85ECC541B67137F00317072 /* LPW_Protocol.h */,
+				B85ECC271B6711CF00317072 /* Main.storyboard */,
+				B85ECC2A1B6711CF00317072 /* Assets.xcassets */,
+				B85ECC2C1B6711CF00317072 /* LaunchScreen.storyboard */,
+				B85ECC2F1B6711CF00317072 /* Info.plist */,
+				B85ECC1E1B6711CF00317072 /* Supporting Files */,
+			);
+			path = NSCannerAndShaperChangeButton;
+			sourceTree = "<group>";
+		};
+		B85ECC1E1B6711CF00317072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B85ECC1F1B6711CF00317072 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B85ECC371B6711CF00317072 /* NSCannerAndShaperChangeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				B85ECC381B6711CF00317072 /* NSCannerAndShaperChangeButtonTests.m */,
+				B85ECC3A1B6711CF00317072 /* Info.plist */,
+			);
+			path = NSCannerAndShaperChangeButtonTests;
+			sourceTree = "<group>";
+		};
+		B85ECC421B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B85ECC431B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests.m */,
+				B85ECC451B6711CF00317072 /* Info.plist */,
+			);
+			path = NSCannerAndShaperChangeButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B85ECC1A1B6711CF00317072 /* NSCannerAndShaperChangeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85ECC481B6711CF00317072 /* Build configuration list for PBXNativeTarget "NSCannerAndShaperChangeButton" */;
+			buildPhases = (
+				B85ECC171B6711CF00317072 /* Sources */,
+				B85ECC181B6711CF00317072 /* Frameworks */,
+				B85ECC191B6711CF00317072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSCannerAndShaperChangeButton;
+			productName = NSCannerAndShaperChangeButton;
+			productReference = B85ECC1B1B6711CF00317072 /* NSCannerAndShaperChangeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B85ECC331B6711CF00317072 /* NSCannerAndShaperChangeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85ECC4B1B6711CF00317072 /* Build configuration list for PBXNativeTarget "NSCannerAndShaperChangeButtonTests" */;
+			buildPhases = (
+				B85ECC301B6711CF00317072 /* Sources */,
+				B85ECC311B6711CF00317072 /* Frameworks */,
+				B85ECC321B6711CF00317072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85ECC361B6711CF00317072 /* PBXTargetDependency */,
+			);
+			name = NSCannerAndShaperChangeButtonTests;
+			productName = NSCannerAndShaperChangeButtonTests;
+			productReference = B85ECC341B6711CF00317072 /* NSCannerAndShaperChangeButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B85ECC3E1B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85ECC4E1B6711CF00317072 /* Build configuration list for PBXNativeTarget "NSCannerAndShaperChangeButtonUITests" */;
+			buildPhases = (
+				B85ECC3B1B6711CF00317072 /* Sources */,
+				B85ECC3C1B6711CF00317072 /* Frameworks */,
+				B85ECC3D1B6711CF00317072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85ECC411B6711CF00317072 /* PBXTargetDependency */,
+			);
+			name = NSCannerAndShaperChangeButtonUITests;
+			productName = NSCannerAndShaperChangeButtonUITests;
+			productReference = B85ECC3F1B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B85ECC131B6711CF00317072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = peng;
+				TargetAttributes = {
+					B85ECC1A1B6711CF00317072 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B85ECC331B6711CF00317072 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B85ECC1A1B6711CF00317072;
+					};
+					B85ECC3E1B6711CF00317072 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B85ECC1A1B6711CF00317072;
+					};
+				};
+			};
+			buildConfigurationList = B85ECC161B6711CF00317072 /* Build configuration list for PBXProject "NSCannerAndShaperChangeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B85ECC121B6711CF00317072;
+			productRefGroup = B85ECC1C1B6711CF00317072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B85ECC1A1B6711CF00317072 /* NSCannerAndShaperChangeButton */,
+				B85ECC331B6711CF00317072 /* NSCannerAndShaperChangeButtonTests */,
+				B85ECC3E1B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B85ECC191B6711CF00317072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85ECC2E1B6711CF00317072 /* LaunchScreen.storyboard in Resources */,
+				B85ECC2B1B6711CF00317072 /* Assets.xcassets in Resources */,
+				B85ECC291B6711CF00317072 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85ECC321B6711CF00317072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85ECC3D1B6711CF00317072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B85ECC171B6711CF00317072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85ECC261B6711CF00317072 /* ViewController.m in Sources */,
+				B85ECC531B6712AF00317072 /* NScanner的基本用法.m in Sources */,
+				B85ECC231B6711CF00317072 /* AppDelegate.m in Sources */,
+				B85ECC571B67145700317072 /* ChangeButtonView.m in Sources */,
+				B85ECC201B6711CF00317072 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85ECC301B6711CF00317072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85ECC391B6711CF00317072 /* NSCannerAndShaperChangeButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85ECC3B1B6711CF00317072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85ECC441B6711CF00317072 /* NSCannerAndShaperChangeButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B85ECC361B6711CF00317072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B85ECC1A1B6711CF00317072 /* NSCannerAndShaperChangeButton */;
+			targetProxy = B85ECC351B6711CF00317072 /* PBXContainerItemProxy */;
+		};
+		B85ECC411B6711CF00317072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B85ECC1A1B6711CF00317072 /* NSCannerAndShaperChangeButton */;
+			targetProxy = B85ECC401B6711CF00317072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B85ECC271B6711CF00317072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B85ECC281B6711CF00317072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B85ECC2C1B6711CF00317072 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B85ECC2D1B6711CF00317072 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B85ECC461B6711CF00317072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B85ECC471B6711CF00317072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B85ECC491B6711CF00317072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSCannerAndShaperChangeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lp.NSCannerAndShaperChangeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B85ECC4A1B6711CF00317072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSCannerAndShaperChangeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lp.NSCannerAndShaperChangeButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B85ECC4C1B6711CF00317072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NSCannerAndShaperChangeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lp.NSCannerAndShaperChangeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSCannerAndShaperChangeButton.app/NSCannerAndShaperChangeButton";
+			};
+			name = Debug;
+		};
+		B85ECC4D1B6711CF00317072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NSCannerAndShaperChangeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lp.NSCannerAndShaperChangeButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSCannerAndShaperChangeButton.app/NSCannerAndShaperChangeButton";
+			};
+			name = Release;
+		};
+		B85ECC4F1B6711CF00317072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NSCannerAndShaperChangeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lp.NSCannerAndShaperChangeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSCannerAndShaperChangeButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B85ECC501B6711CF00317072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NSCannerAndShaperChangeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lp.NSCannerAndShaperChangeButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSCannerAndShaperChangeButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B85ECC161B6711CF00317072 /* Build configuration list for PBXProject "NSCannerAndShaperChangeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85ECC461B6711CF00317072 /* Debug */,
+				B85ECC471B6711CF00317072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85ECC481B6711CF00317072 /* Build configuration list for PBXNativeTarget "NSCannerAndShaperChangeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85ECC491B6711CF00317072 /* Debug */,
+				B85ECC4A1B6711CF00317072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B85ECC4B1B6711CF00317072 /* Build configuration list for PBXNativeTarget "NSCannerAndShaperChangeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85ECC4C1B6711CF00317072 /* Debug */,
+				B85ECC4D1B6711CF00317072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B85ECC4E1B6711CF00317072 /* Build configuration list for PBXNativeTarget "NSCannerAndShaperChangeButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85ECC4F1B6711CF00317072 /* Debug */,
+				B85ECC501B6711CF00317072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B85ECC131B6711CF00317072 /* Project object */;
+}
