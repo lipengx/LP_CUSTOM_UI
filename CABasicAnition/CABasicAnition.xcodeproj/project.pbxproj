@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B81D705E1B689D0000A0BB3A /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B81D705D1B689D0000A0BB3A /* 2.png */; };
+		B81D70601B689D0500A0BB3A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B81D705F1B689D0500A0BB3A /* 1.png */; };
+		B81D70621B689D0B00A0BB3A /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B81D70611B689D0B00A0BB3A /* 3.png */; };
 		B85ECBDB1B6624DA00317072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B85ECBDA1B6624DA00317072 /* main.m */; };
 		B85ECBDE1B6624DA00317072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B85ECBDD1B6624DA00317072 /* AppDelegate.m */; };
 		B85ECBE11B6624DA00317072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85ECBE01B6624DA00317072 /* ViewController.m */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B81D705D1B689D0000A0BB3A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		B81D705F1B689D0500A0BB3A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		B81D70611B689D0B00A0BB3A /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		B85ECBD61B6624DA00317072 /* CABasicAnition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CABasicAnition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85ECBDA1B6624DA00317072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B85ECBDC1B6624DA00317072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,7 +122,10 @@
 				B85ECC0F1B66647E00317072 /* TestModel.h */,
 				B85ECC101B66647E00317072 /* TestModel.m */,
 				B85ECBE21B6624DA00317072 /* Main.storyboard */,
+				B81D705F1B689D0500A0BB3A /* 1.png */,
+				B81D705D1B689D0000A0BB3A /* 2.png */,
 				B85ECBE51B6624DA00317072 /* Assets.xcassets */,
+				B81D70611B689D0B00A0BB3A /* 3.png */,
 				B85ECBE71B6624DA00317072 /* LaunchScreen.storyboard */,
 				B85ECBEA1B6624DA00317072 /* Info.plist */,
 				B85ECBD91B6624DA00317072 /* Supporting Files */,
@@ -253,8 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81D70601B689D0500A0BB3A /* 1.png in Resources */,
 				B85ECBE91B6624DA00317072 /* LaunchScreen.storyboard in Resources */,
 				B85ECBE61B6624DA00317072 /* Assets.xcassets in Resources */,
+				B81D705E1B689D0000A0BB3A /* 2.png in Resources */,
+				B81D70621B689D0B00A0BB3A /* 3.png in Resources */,
 				B85ECBE41B6624DA00317072 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CABasicAnition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lp.CABasicAnition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CABasicAnition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lp.CABasicAnition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,6 +524,7 @@
 				B85ECC051B6624DA00317072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B85ECC061B6624DA00317072 /* Build configuration list for PBXNativeTarget "CABasicAnitionTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +533,7 @@
 				B85ECC081B6624DA00317072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B85ECC091B6624DA00317072 /* Build configuration list for PBXNativeTarget "CABasicAnitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +542,7 @@
 				B85ECC0B1B6624DA00317072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
