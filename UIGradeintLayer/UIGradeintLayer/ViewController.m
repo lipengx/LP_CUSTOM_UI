@@ -9,8 +9,11 @@
 #import "ViewController.h"
 #import "MuticolorView.h"
 #import "MutableSelfColor.h"
-@interface ViewController ()
+#import "CustomMutiColor.h"
+#import "CAMutiColor.h"
 
+@interface ViewController ()
+@property (nonatomic,strong)CustomMutiColor * showView;
 @end
 
 @implementation ViewController
@@ -29,7 +32,46 @@
     [selfcolor startAnimation];
     [self.view addSubview:selfcolor];
     
+    
+    
+    
+    
+    _showView           = [[CustomMutiColor alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    _showView.lineWidth = 1.f;
+    _showView.sec       = 2.f;
+    _showView.colors    = @[(id)[UIColor cyanColor].CGColor,
+                            (id)[UIColor yellowColor].CGColor,
+                            (id)[UIColor cyanColor].CGColor];
+    _showView.center    = self.view.center;
+    NSTimer * time              = [NSTimer scheduledTimerWithTimeInterval:1
+                                                           target:self
+                                                         selector:@selector(event:)
+                                                         userInfo:nil
+            
+                                                                  repeats:YES];
+    _showView.lineWidth = 2.3;
+    [self.view addSubview:_showView];
+    [_showView startAnimation];
+    
+    
+    
+    
+    
+    
+    CAMutiColor * mutableColor = [[CAMutiColor alloc]initWithFrame:CGRectMake(0, 0, 50, 50)];
+    mutableColor.center = CGPointMake(self.view.center.x,570);
+    [mutableColor startAnimating];
+   mutableColor.backgroundColor =[UIColor redColor];
+    [self.view addSubview:mutableColor];
+    self.view.backgroundColor = [UIColor redColor];
+    
 }
+
+- (void)event:(id)object
+{
+    _showView.percent = arc4random()%100/100.f;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

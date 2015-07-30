@@ -76,8 +76,8 @@ CAShapeLayer * shaper = [self produceCircleShapeLayer];
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.path = circlePath.CGPath;
     shapeLayer.strokeColor = [UIColor lightGrayColor].CGColor;
-    shapeLayer.fillColor = [[UIColor clearColor] CGColor];
-    shapeLayer.lineWidth = 2;
+    shapeLayer.fillColor = [[UIColor redColor] CGColor];
+    shapeLayer.lineWidth = 10;
     
     // 可以设置出圆的完整性
     shapeLayer.strokeStart = 0;

@@ -60,15 +60,18 @@
                                                               radius:circleRadius
                                                           startAngle:M_PI
                                                             endAngle:-M_PI
+        
                                                            clockwise:NO];
     
+   circlePath.lineJoinStyle = kCGLineCapSquare;
     // 生产出一个圆形路径的Layer
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.path = circlePath.CGPath;
     shapeLayer.strokeColor = [UIColor lightGrayColor].CGColor;
-    
     shapeLayer.fillColor = [[UIColor clearColor] CGColor];
     shapeLayer.lineWidth = 2;
+    shapeLayer.lineDashPattern = @[@20];
+    shapeLayer.lineDashPhase = 200.;
     
     // 可以设置出圆的完整性
     shapeLayer.strokeStart = 0;

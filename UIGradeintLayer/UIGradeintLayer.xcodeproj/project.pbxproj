@@ -17,6 +17,8 @@
 		B81D70951B68C87F00A0BB3A /* UIGradeintLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D70941B68C87F00A0BB3A /* UIGradeintLayerUITests.m */; };
 		B81D70A41B68C98900A0BB3A /* MuticolorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D70A31B68C98900A0BB3A /* MuticolorView.m */; };
 		B81D70A71B68D6D300A0BB3A /* MutableSelfColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D70A61B68D6D300A0BB3A /* MutableSelfColor.m */; };
+		B893D03C1B69B4B6003D9357 /* CustomMutiColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B893D03B1B69B4B6003D9357 /* CustomMutiColor.m */; };
+		B893D03F1B69BBFD003D9357 /* CAMutiColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B893D03E1B69BBFD003D9357 /* CAMutiColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		B81D70A31B68C98900A0BB3A /* MuticolorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuticolorView.m; sourceTree = "<group>"; };
 		B81D70A51B68D6D300A0BB3A /* MutableSelfColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableSelfColor.h; sourceTree = "<group>"; };
 		B81D70A61B68D6D300A0BB3A /* MutableSelfColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableSelfColor.m; sourceTree = "<group>"; };
+		B893D03A1B69B4B6003D9357 /* CustomMutiColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMutiColor.h; sourceTree = "<group>"; };
+		B893D03B1B69B4B6003D9357 /* CustomMutiColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMutiColor.m; sourceTree = "<group>"; };
+		B893D03D1B69BBFD003D9357 /* CAMutiColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMutiColor.h; sourceTree = "<group>"; };
+		B893D03E1B69BBFD003D9357 /* CAMutiColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMutiColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				B81D70A31B68C98900A0BB3A /* MuticolorView.m */,
 				B81D70A51B68D6D300A0BB3A /* MutableSelfColor.h */,
 				B81D70A61B68D6D300A0BB3A /* MutableSelfColor.m */,
+				B893D03A1B69B4B6003D9357 /* CustomMutiColor.h */,
+				B893D03B1B69B4B6003D9357 /* CustomMutiColor.m */,
+				B893D03D1B69BBFD003D9357 /* CAMutiColor.h */,
+				B893D03E1B69BBFD003D9357 /* CAMutiColor.m */,
 				B81D70781B68C87F00A0BB3A /* Main.storyboard */,
 				B81D707B1B68C87F00A0BB3A /* Assets.xcassets */,
 				B81D707D1B68C87F00A0BB3A /* LaunchScreen.storyboard */,
@@ -283,8 +293,10 @@
 				B81D70771B68C87F00A0BB3A /* ViewController.m in Sources */,
 				B81D70741B68C87F00A0BB3A /* AppDelegate.m in Sources */,
 				B81D70A71B68D6D300A0BB3A /* MutableSelfColor.m in Sources */,
+				B893D03C1B69B4B6003D9357 /* CustomMutiColor.m in Sources */,
 				B81D70711B68C87F00A0BB3A /* main.m in Sources */,
 				B81D70A41B68C98900A0BB3A /* MuticolorView.m in Sources */,
+				B893D03F1B69BBFD003D9357 /* CAMutiColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +522,7 @@
 				B81D709B1B68C87F00A0BB3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B81D709C1B68C87F00A0BB3A /* Build configuration list for PBXNativeTarget "UIGradeintLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +531,7 @@
 				B81D709E1B68C87F00A0BB3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B81D709F1B68C87F00A0BB3A /* Build configuration list for PBXNativeTarget "UIGradeintLayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +540,7 @@
 				B81D70A11B68C87F00A0BB3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
